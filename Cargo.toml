@@ -1,0 +1,11 @@
+[package]
+name = "chess_web_app"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+owlchess = "0.4.0"
+wasm-bindgen = "0.2.92"
+
+[lib]
+crate-type = ["cdylib"]
