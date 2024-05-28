@@ -7,15 +7,21 @@
     <link rel="stylesheet" href="src/styles.css">
 </head>
 <body>
-    <iframe id="board_image" src="https://mutsuntsai.github.io/fen-tool/gen/?fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"></iframe>
-    
-    <form>
-        <label><span id="whos_move">White</span>'s move: </label>
-        <input id="chess_notation" type="text">
+    <h1>Play Chess</h1>
+
+    <div id="main_board">
+        <button id="switch_boards" onclick="switch_boards()">switch boards</button><br>
+        <iframe id="board_image" src=""></iframe>
         
-        <button type="button" onclick="do_move()">Go</button>
-        
-    </form>
+        <form>
+            <label><span id="whos_move">White</span>'s move: </label>
+            <input id="chess_notation" type="text">
+            
+            <button id="go_button" type="button" onclick="do_move()">Go</button>
+            <p id="error_report"></p>
+            
+        </form>
+    </div>
 
     <script type="module" src="./src/index.js"></script>
 </body>

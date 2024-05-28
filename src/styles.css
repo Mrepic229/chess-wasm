@@ -3,3 +3,6 @@ iframe {
     width:354px;
     height:354px
 }
+#error_report {
+    color: red;
+}
