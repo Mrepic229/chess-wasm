@@ -1,5 +1,7 @@
 # Chess Wasm
 
+![Chess image](./assets/screenshot.png)
+
 ## Running 
 To run the repo, first build the rust implementation:
 ```bash
