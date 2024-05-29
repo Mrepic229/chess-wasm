@@ -69,12 +69,15 @@ function switch_boards() {
 
 function switch_whose_turn() {
     const whosMoveId = document.getElementById("whos_move");
+    const whosMoveLabelId = document.getElementById("whos_move_label")
     if (is_white_to_move) {
         is_white_to_move = false;
-        whosMoveId.textContent = "Black";
+        whosMoveId.textContent = "Black's";
+        whosMoveLabelId.style = "color: Black";
     } else {
         is_white_to_move = true;
-        whosMoveId.textContent = "White";
+        whosMoveId.textContent = "White's";
+        whosMoveLabelId.style = "color: White";
     }
 }
 

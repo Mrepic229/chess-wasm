@@ -14,11 +14,11 @@
         <iframe id="board_image" src=""></iframe>
         
         <form>
-            <label><span id="whos_move">White</span>'s move: </label>
+            <label id="whos_move_label"><span id="whos_move">White</span> move: </label>
             <input id="chess_notation" type="text">
             
-            <button id="go_button" type="button" onclick="do_move()">Go</button>
-            <p id="error_report"></p>
+            <button id="go_button" type="button" onclick="do_move()">Go</button><br>
+            <span id="error_report"></span>
             
         </form>
     </div>
