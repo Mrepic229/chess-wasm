@@ -21,7 +21,14 @@ function do_move() {
         wft_error();
         return;
     }
+    if (new_board_fen == "checkmate") {
+        checkmate();
+    }
+    if (new_board_fen == "stalemate") {
+        stalemate();
+    }
 
+    moveId.textContent = "";
     switch_whose_turn();
     display(new_board_fen);
 }
@@ -57,6 +64,14 @@ function report_error_to_user(my_string) {
     setTimeout(function() {errorReportId.textContent = ""},
         2500
     );
+}
+
+function checkmate() {
+    let who_won = "Black";
+    if (is_white_to_move) {
+        who_won = "White"
+    }
+    report_error_to_user("Checkmate!: ".concat(who_won.concat(" Wins")))
 }
 
 function switch_boards() {

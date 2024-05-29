@@ -32,6 +32,13 @@ pub fn next_move(chess_move: &str, board: &str) -> String {
             return format!("cannot simulate move");
         }
     };
+
+    if !&result_new_result_move.has_legal_moves(){
+        if result_new_result_move.is_check() {
+            return format!("checkmate");
+        }
+        return format!("stalemate");
+    }
     
-    return format!("{}", result_new_result_move);
+    return format!("{}", &result_new_result_move);
 }
