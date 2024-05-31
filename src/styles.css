@@ -4,23 +4,48 @@ body {
     background-color: black;
 }
 iframe {
-    border:none;
+    border:none;    
     width:354px;
     height:354px;
+    pointer-events: none;
 }
 h1 {
     text-align: center;
+    font-size: 3em;
 }
 #error_report {
     color: red;
     background-color: white;
 }
-#main_board {
-    background-color: tomato;
+#to_align_element {
+    height: auto;
+    vertical-align: middle;
+    display: table-cell;
     width: 400px;
-    padding: 10px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+
 }
+#to_align_element>div {
+    background-color: tomato;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#to_align {
+    height: 400px;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;    
+}
+#history_container {
+    text-decoration: underline;
+}
+#history_container span:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+

@@ -9,20 +9,49 @@
 <body>
     <h1>Play Chess</h1>
 
-    <div id="main_board">
-        <button id="switch_boards" onclick="switch_boards()">switch boards</button><br>
-        <iframe id="board_image" src=""></iframe>
-        
-        <form>
-            <label id="whos_move_label"><span id="whos_move">White</span> move: </label>
-            <input id="chess_notation" type="text">
-            
-            <button id="go_button" type="button" onclick="do_move()">Enter</button><br>
-            <span id="error_report"></span>
-            
-        </form>
+    <div id="to_align">
+
+        <div id="to_align_element">
+            <div id="help_slide">
+                <h2>Chess Notation Rules:</h2>
+                <p style="text-align: left;">
+                    x: captures<br>
+                    0-0: kingside castle<br>
+                    0-0-0: queenside castle<br>
+                </p>
+            </div>
+        </div>
+
+        <div id="to_align_element">
+            <div id="main_board">
+                <button id="switch_boards" onclick="switch_boards()">switch boards</button><br>
+                <iframe id="board_image" src=""></iframe>
+                
+                <form>
+                    <label id="whos_move_label"><span id="whos_move">White's</span> move: </label>
+                    <input id="chess_notation" type="text">
+                    
+                    <button id="go_button" type="button" onclick="do_move()">Enter</button><br>
+                    <span id="error_report"></span>
+                </form>
+                
+
+                <script type="module" src="./src/main_board.js"></script>
+            </div>
+        </div>
+
+        <div id="to_align_element">
+            <div id="align_game_history">
+                <h2>Game History</h2>
+
+                <div id="history_container">
+                    <p>Play to start history</p>
+                </div>
+
+                <script type="module" src="./src/game_history.js"></script>
+            </div>
+        </div>
     </div>
 
-    <script type="module" src="./src/index.js"></script>
 </body>
 </html>

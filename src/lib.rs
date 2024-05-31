@@ -1,5 +1,5 @@
 
-use owlchess::{Board, Make, Move, moves};
+use owlchess::{board, moves, Board, Make, Move};
 use wasm_bindgen::prelude::*;
 
 #[wasm_bindgen]
@@ -33,12 +33,14 @@ pub fn next_move(chess_move: &str, board: &str) -> String {
         }
     };
 
+    let mut gameover = "";
     if !&result_new_result_move.has_legal_moves(){
         if result_new_result_move.is_check() {
-            return format!("checkmate");
+            gameover ="checkmate";
+        } else{
+            gameover = "stalemate";
         }
-        return format!("stalemate");
     }
     
-    return format!("{}", &result_new_result_move);
+    return format!("{}{}", &result_new_result_move, gameover);
 }
