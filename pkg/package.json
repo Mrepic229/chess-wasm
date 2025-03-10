@@ -1,0 +1,14 @@
+{
+  "name": "chess_web_app",
+  "version": "0.1.0",
+  "files": [
+    "chess_web_app_bg.wasm",
+    "chess_web_app.js",
+    "chess_web_app.d.ts"
+  ],
+  "module": "chess_web_app.js",
+  "types": "chess_web_app.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
