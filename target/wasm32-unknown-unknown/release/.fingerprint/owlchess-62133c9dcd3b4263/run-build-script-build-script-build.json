@@ -1,0 +1,1 @@
+{"rustc":1059629350237521597,"features":"","declared_features":"","target":0,"profile":0,"path":0,"deps":[[16371274921754451199,"build_script_build",false,10630382287750384326]],"local":[{"RerunIfChanged":{"output":"wasm32-unknown-unknown/release/build/owlchess-62133c9dcd3b4263/output","paths":["build.rs"]}}],"rustflags":[],"metadata":0,"config":0,"compile_kind":0}

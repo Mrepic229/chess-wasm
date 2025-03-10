@@ -1,0 +1,11 @@
+/home/d-pops/webdev/chess_web_app/target/release/deps/libowlchess_base-c51ce043cc0dca12.rmeta: /home/d-pops/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owlchess_base-0.4.0/src/lib.rs /home/d-pops/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owlchess_base-0.4.0/src/bitboard.rs /home/d-pops/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owlchess_base-0.4.0/src/bitboard_consts.rs /home/d-pops/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owlchess_base-0.4.0/src/geometry.rs /home/d-pops/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owlchess_base-0.4.0/src/types.rs
+
+/home/d-pops/webdev/chess_web_app/target/release/deps/libowlchess_base-c51ce043cc0dca12.rlib: /home/d-pops/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owlchess_base-0.4.0/src/lib.rs /home/d-pops/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owlchess_base-0.4.0/src/bitboard.rs /home/d-pops/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owlchess_base-0.4.0/src/bitboard_consts.rs /home/d-pops/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owlchess_base-0.4.0/src/geometry.rs /home/d-pops/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owlchess_base-0.4.0/src/types.rs
+
+/home/d-pops/webdev/chess_web_app/target/release/deps/owlchess_base-c51ce043cc0dca12.d: /home/d-pops/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owlchess_base-0.4.0/src/lib.rs /home/d-pops/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owlchess_base-0.4.0/src/bitboard.rs /home/d-pops/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owlchess_base-0.4.0/src/bitboard_consts.rs /home/d-pops/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owlchess_base-0.4.0/src/geometry.rs /home/d-pops/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owlchess_base-0.4.0/src/types.rs
+
+/home/d-pops/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owlchess_base-0.4.0/src/lib.rs:
+/home/d-pops/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owlchess_base-0.4.0/src/bitboard.rs:
+/home/d-pops/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owlchess_base-0.4.0/src/bitboard_consts.rs:
+/home/d-pops/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owlchess_base-0.4.0/src/geometry.rs:
+/home/d-pops/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owlchess_base-0.4.0/src/types.rs:
